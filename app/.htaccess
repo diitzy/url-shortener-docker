@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^r/([a-zA-Z0-9]+)$ redirect.php?c=$1 [L]
